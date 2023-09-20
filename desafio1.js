@@ -3,6 +3,7 @@
 class ProductManager {
   constructor() {
     this.products = [];
+    this.currentId = 1;
   }
 
   // MÉTODO ADD PRODUCTS
@@ -78,5 +79,5 @@ productManager.addProduct(
 );
 
 // OBTENEMOS UN PRODUCTO POR SU ID
-console.log("ID es ", id);
+
 productManager.getProductByID(1);
